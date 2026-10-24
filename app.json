@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Nova AI",
+    "slug": "nova-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": { "backgroundColor": "#F8F8FC" },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.novaai",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Nova AI использует выбранные тобой фотографии, чтобы ответить на вопросы об изображениях."
+      }
+    },
+    "plugins": ["expo-image-picker"]
+  }
+}
