@@ -7,7 +7,7 @@ import {
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as ImagePicker from 'expo-image-picker';
 
-const API_URL = process.env.EXPO_PUBLIC_API_URL || 'https://YOUR-BACKEND.example.com';
+const API_URL = 'https://nova-ai-server-v475.onrender.com';
 const STORAGE_KEY = 'nova-ai-history-v1';
 
 export default function App() {
